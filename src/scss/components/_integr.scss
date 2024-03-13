@@ -1,0 +1,21 @@
+.integr {
+	&__container {
+		&-accordions {
+			display: flex;
+			flex-direction: column;
+			gap: 12px;
+		}
+	}
+	&__title {
+		color: var(--black-title);
+		margin-bottom: 16px;
+	}
+	&__subtitle {
+		text-align: center;
+		font-size: 16px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: var(--black-color);
+		margin-bottom: 20px;
+	}
+}

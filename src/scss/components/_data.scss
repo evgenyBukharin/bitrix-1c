@@ -9,11 +9,6 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 20px;
-		&-icon {
-			display: inline-block;
-			height: 30px;
-			margin-left: 2px;
-		}
 	}
 	&__title {
 		color: var(--black-color);
@@ -31,31 +26,7 @@
 		min-width: 350px;
 		max-width: 500px;
 	}
-	&__list {
-		margin-top: 8px;
-		padding-left: 20px;
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-	}
-	&__item {
-		position: relative;
-		min-height: 30px;
-		line-height: 1.4;
-		&::before {
-			content: "";
-			position: absolute;
-			left: -16px;
-			top: 8px;
-			width: 7px;
-			height: 7px;
-			background: var(--blue-color);
-			border-radius: 100%;
-		}
-	}
-	&__icon {
-		cursor: pointer;
-	}
+
 	& .data__list:not(:last-child) {
 		margin-bottom: 16px;
 	}
@@ -63,6 +34,7 @@
 
 @media (max-width: 1024px) {
 	.data {
+		margin-bottom: 60px;
 		&__container {
 			min-height: unset;
 			margin-top: 30px;
