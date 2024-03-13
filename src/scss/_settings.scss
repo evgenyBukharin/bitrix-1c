@@ -1,0 +1,66 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.page {
+	height: 100%;
+	font-family: var(--font-family, sans-serif);
+	-webkit-text-size-adjust: 100%;
+}
+
+.page__body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100%;
+	font-size: 16px;
+}
+
+// bitrix fun shit
+.body {
+	margin-bottom: 0;
+}
+footer {
+	margin-top: 0;
+}
+//
+
+.site-container {
+	overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+}
+
+.btn-reset {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 var(--container-offset);
+	max-width: var(--container-width);
+	&-bigger {
+		max-width: 1500px;
+	}
+}
+
+.link-reset {
+	text-decoration: none;
+	color: var(--blue-color);
+}
+
+.main {
+	margin: 0 !important;
+}
