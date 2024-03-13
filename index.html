@@ -31,7 +31,7 @@
 					<a href="#how" class="btn-reset button__primary hero__button"> Настроить интеграцию </a>
 				</div>
 			</div>
-			<iframe
+			<!-- <iframe
 				class="hero__frame"
 				width="480"
 				height="270"
@@ -43,7 +43,7 @@
 				title="Интеграция 1С и Битрикс24.CRM"
 				src="https://www.youtube.com/embed/J8qkVITuOMQ?autoplay=1&amp;cc_load_policy=0&amp;color=red&amp;controls=1&amp;disablekb=1&amp;enablejsapi=1&amp;fs=1&amp;iv_load_policy=3&amp;loop=0&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;origin=https%3A%2F%2Fwww.bitrix24.ru&amp;widgetid=2"
 				data-gtm-yt-inspected-1451531_1439="true"
-			></iframe>
+			></iframe> -->
 		</div>
 	</div>
 	<div class="hero__container-bordered">
@@ -73,50 +73,53 @@
 		<div class="data__side">
 			<h2 class="title title__h2 data__title">Какими данными обмениваются Битрикс24 и 1С</h2>
 			<h5 class="title title__h5 data__subtitle">Для облачного и коробочного Битрикс24</h5>
-			<ul class="list-reset data__list">
-				<li class="title__h4 data__item">Контакты и компании</li>
-				<li class="title__h4 data__item">Сделки и счета (новые и старые)</li>
-				<li class="title__h4 data__item">Реквизиты и банковские счета</li>
-				<li class="title__h4 data__item">Товары и их свойства, разделы</li>
-				<li class="title__h4 data__item">
+			<ul class="list-reset list data__list">
+				<li class="title__h4 list__item">Контакты и компании</li>
+				<li class="title__h4 list__item">Сделки и счета (новые и старые)</li>
+				<li class="title__h4 list__item">Реквизиты и банковские счета</li>
+				<li class="title__h4 list__item">Товары и их свойства, разделы</li>
+				<li class="title__h4 list__item">
 					Прайсы и доступный остаток
-					<div class="data__container-icon">
+					<div class="list__container-icon">
 						<img
 							src="./img/question-mark.svg"
-							class="image data__icon"
+							class="image list__icon"
 							width="12"
 							height="12"
 							alt="Знак вопроса"
 						/>
+						<div class="list__tooltip">Только из 1С в Битрикс24</div>
 					</div>
 				</li>
-				<li class="title__h4 data__item">Заказы, оплаты, отгрузки, поля</li>
-				<li class="title__h4 data__item">
+				<li class="title__h4 list__item">Заказы, оплаты, отгрузки, поля</li>
+				<li class="title__h4 list__item">
 					Печатные формы документов
-					<div class="data__container-icon">
+					<div class="list__container-icon">
 						<img
 							src="./img/question-mark.svg"
-							class="image data__icon"
+							class="image list__icon"
 							width="12"
 							height="12"
 							alt="Знак вопроса"
 						/>
+						<div class="list__tooltip">Только из 1С в Битрикс24</div>
 					</div>
 				</li>
-				<li class="title__h4 data__item">Смарт-процессы</li>
+				<li class="title__h4 list__item">Смарт-процессы</li>
 			</ul>
 			<h5 class="title title__h5 data__subtitle">Только для коробочного Битрикс24</h5>
-			<ul class="list-reset data__list">
-				<li class="title__h4 data__item">
+			<ul class="list-reset list data__list">
+				<li class="title__h4 list__item">
 					Передача данных о сотрудниках и кадровых изменениях
-					<div class="data__container-icon">
+					<div class="list__container-icon">
 						<img
 							src="./img/question-mark.svg"
-							class="image data__icon"
+							class="image list__icon"
 							width="12"
 							height="12"
 							alt="Знак вопроса"
 						/>
+						<div class="list__tooltip">Только из 1С в Битрикс24</div>
 					</div>
 				</li>
 			</ul>
@@ -124,7 +127,198 @@
 		<img src="./img/data-image.png" class="image data__image" width="800" height="720" alt="1c Битрикс картинка" />
 	</div>
 </section>
- <section class="sub">
+ <section class="integr">
+	<div class="container integr__container">
+		<h2 class="title title__h2 integr__title">Возможности интеграции</h2>
+		<h4 class="title integr__subtitle">Облачная и коробочная версии двух программ</h4>
+		<div class="integr__container-accordions">
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title">1С:Синхронизация</span>
+						<p class="title accordion__descr">
+							Комплексный двусторонний обмен данными между 1С и Битрикс24 в режиме реального времени.
+							Синхронизировать содержимое можно автоматически, по расписанию или вручную.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Данные для обмена</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Единая клиентская база</li>
+						<li class="title__h4 list__item">Банковские счета компаний и контактов</li>
+						<li class="title__h4 list__item">Сделки и Счета</li>
+						<li class="title__h4 list__item">
+							Товары и вариации, свойства товаров, единицы измерения, разделы
+						</li>
+						<li class="title__h4 list__item">Заказы, оплаты, отгрузки</li>
+						<li class="title__h4 list__item">Прайсы, цены по прайсам и доступный остаток</li>
+						<li class="title__h4 list__item">Пользовательские поля компаний, контактов, счетов и сделок</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title">Коннектор к 1С</span>
+						<p class="title accordion__descr">
+							Работайте с 1С внутри Битрикс24 — открывайте документы в сделке CRM одним кликом.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Данные для обмена</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Единая клиентская база</li>
+						<li class="title__h4 list__item">Документы</li>
+						<li class="title__h4 list__item">Справочники</li>
+						<li class="title__h4 list__item">Отчеты из 1С</li>
+						<li class="title__h4 list__item">Реестр печатных форм</li>
+					</ul>
+					<div class="accordion__title-content">Сервисы</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">«1СПАРК Риски» (оценка надежности контрагента)</li>
+						<li class="title__h4 list__item">Телефония</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title">Экспорт отчетов и печатных форм</span>
+						<p class="title accordion__descr">
+							Руководитель может просмотреть любой отчет из 1С в Битрикс24 даже на мобильном телефоне.
+							Интеграция позволяет публиковать отчеты или печатные формы документов из 1С по заданному
+							графику.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Данные для обмена</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Отчеты и печатные формы</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title">Автоматизация сделок (роботы и триггеры)</span>
+						<p class="title accordion__descr">
+							Свяжите в единый автоматизированный процесс движение сделки по стадиям в CRM и работу с
+							заказом в 1С. Для тех, кому важно, чтобы «всё само» и за считанные секунды.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Триггеры сделок</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Отгрузка товара в 1С</li>
+						<li class="title__h4 list__item">Заказ полностью или частично оплачен в 1С</li>
+						<li class="title__h4 list__item">Изменение документа в 1С</li>
+						<li class="title__h4 list__item">Проведение документа в 1С</li>
+						<li class="title__h4 list__item">Отмена проведения документа в 1С</li>
+						<li class="title__h4 list__item">
+							Подтверждение корректности или некорректности документа в 1С
+						</li>
+					</ul>
+					<div class="accordion__title-content">Роботы сделок</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Создание в 1С документа на основании ранее созданного</li>
+						<li class="title__h4 list__item">Печатная форма из 1С с привязкой к таймлайну сделки</li>
+						<li class="title__h4 list__item">Утверждение документа</li>
+						<li class="title__h4 list__item">Отклонение документа</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title">Смарт-процессы Битрикс24</span>
+						<p class="title accordion__descr">
+							Расширяйте возможности интеграции Битрикс24 с 1С с помощью смарт-процессов. Смарт-процессы —
+							это возможность создавать новые разделы внутри CRM и настраивать их как угодно.
+							Синхронизация поддерживает три режима: ручной, по расписанию и в режиме реального времени.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Данные для обмена</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Документы 1С</li>
+						<li class="title__h4 list__item">Справочники 1С</li>
+					</ul>
+				</div>
+			</div>
+			<div class="accordion integr__accordion">
+				<button class="accordion__control" aria-expanded="false">
+					<div class="accordion__container-text">
+						<span class="accordion__title-top">ТОЛЬКО ДЛЯ КОРОБОЧНОГО БИТРИКС24</span>
+						<span class="accordion__title">Выгрузка данных о сотрудниках и другой кадровой информации</span>
+						<p class="title accordion__descr">
+							Комплексная интеграция с HR-системой компании. Отображаются все кадровые изменения и
+							перестановки сотрудников в рамках компании.
+						</p>
+					</div>
+					<img
+						src="./img/accordion-arrow.svg"
+						class="image accordion__arrow"
+						width="22"
+						height="12"
+						alt="Стрелка вниз"
+					/>
+				</button>
+				<div class="accordion__content" aria-hidden="true">
+					<div class="accordion__title-content">Данные для обмена</div>
+					<ul class="list-reset list data__list">
+						<li class="title__h4 list__item">Структура компании</li>
+						<li class="title__h4 list__item">Сотрудники компании</li>
+						<li class="title__h4 list__item">Информация об отсутствиях сотрудников</li>
+						<li class="title__h4 list__item">Кадровые перестановки</li>
+						<li class="title__h4 list__item">Расчетные листы по зарплате и остатки отпусков</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="sub">
 	<div class="container sub__container">
 		<h2 class="title title__h2 title__h2-black sub__title">
 			Нужно еще больше инструментов? Попробуйте подписку на Битрикс24 Маркет
