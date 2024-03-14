@@ -32,3 +32,20 @@
 		}
 	}
 }
+
+@media (max-width: 1024px) {
+	.sub {
+		padding: 45px 0;
+		&__subtitle {
+			margin-bottom: 35px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.sub {
+		&__title {
+			margin-bottom: 20px;
+		}
+	}
+}
